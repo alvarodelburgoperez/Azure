@@ -1,9 +1,9 @@
 server {
     listen 80;
     listen [::]:80;
-    server_name midominio1 www.midominio1;
+    server_name server1 www.server1;
 
-    root /var/www/dominio1/html;
+    root /var/www/server1/html;
     index index.html;
 
     location / {
@@ -14,9 +14,9 @@ server {
 server {
     listen 80;
     listen [::]:80;
-    server_name midominio2 www.midominio2;
+    server_name server2 www.server2;
 
-    root /var/www/dominio2/html;
+    root /var/www/server2/html;
     index index2.html;
 
     location / {
